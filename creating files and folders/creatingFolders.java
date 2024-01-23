@@ -1,20 +1,22 @@
-// this is a random comment .
+//this code throws error at the moment
 import java.io.File;
 
 public class creatingFolders {
-    public static void main(String args[]){
-        //specifying the path of my new folder
-        String folderPath = "D:/";
 
+    public static void main(String[] args) {
+        // Specify the path for the new folder
+        String folderPath = "C:\\";
+
+        // Create a File object representing the directory
         File folder = new File(folderPath);
 
-        boolean success = folder.mkdir();
+        // Use the mkdirs() method to create the directory and its parent directories if necessary
+        boolean success = folder.mkdirs();
 
-        if(success) {
-            System.out.println("Folder created!");
-        }
-        else{
-            System.out.println("Error!");
+        if (success) {
+            System.out.println("Folder created successfully.");
+        } else {
+            System.err.println("Error creating folder.");
         }
     }
 }
