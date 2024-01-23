@@ -1,4 +1,4 @@
-//this code throws error at the moment
+//code to create folders using only java commands
 import java.io.File;
 
 public class creatingFolders {
