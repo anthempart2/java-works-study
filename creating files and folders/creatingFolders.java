@@ -5,6 +5,8 @@ public class creatingFolders {
 
     public static void main(String[] args) {
         // Specify the path for the new folder
+        // Also add the name of the file you wanna create alongside the path.
+        //here for instance the filename is 'FileNameSample'
         String folderPath = "D:\\FileNameSample";
 
         // Create a File object representing the directory
