@@ -1,4 +1,5 @@
 // differences between FileWriter and BUfferedWriter
+
 //Both FileWriter and BufferedWriter are useful for character based file operations
 
 /*FileWriter is a subclass of writer. However , it doesn't provide buffering by itself. which means
